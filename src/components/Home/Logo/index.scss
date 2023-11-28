@@ -1,0 +1,19 @@
+.logo-container{
+    z-index: 0;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 17%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+
+    img{
+        position: absolute;
+        max-height: 500px;
+        bottom: 10%;
+        left: 0;
+        animation: fadeIn 2s 2s;
+        animation-fill-mode: backwards;
+    }
+}

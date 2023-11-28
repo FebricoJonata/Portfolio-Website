@@ -1,0 +1,35 @@
+.portofolio-page {
+    overflow: auto;
+
+    .tittle {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        color: #ffd700;
+        font-size: 20px;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        position: relative;
+        margin-left: 50px;
+
+        .decoration {
+            font-family: 'La Belle Aurore';
+            margin: 45px 20px 0 20px;
+            opacity: 0.6;
+        }
+    }
+
+    .text-animate-hover {
+        &:hover {
+            color: #fff;
+
+        }
+    }
+
+    .card-container {
+        position: absolute;
+        left: 14%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
